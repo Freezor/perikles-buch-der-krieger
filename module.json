@@ -1,0 +1,92 @@
+{
+  "id": "perikles-buch-der-krieger",
+  "title": "Perikles Buch der Krieger",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "freezors-dandd-conditions-improvements",
+        "type": "module"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "legende-der-sturmechos",
+        "type": "module"
+      },
+      {
+        "id": "freezors-additional-damage-types",
+        "type": "module"
+      },
+      {
+        "id": "midi-qol",
+        "type": "module"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Freezor"
+    }
+  ],
+  "scripts": [
+    "scripts/setup.js"
+  ],
+  "packs": [
+    {
+      "name": "pbk-regeln",
+      "label": "PBK-Regeln",
+      "path": "packs/pbk-regeln",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pbk-technicken-und-merkmale",
+      "label": "PBK-Techniken und Merkmale",
+      "path": "packs/pbk-technicken-und-merkmale",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pbk-talente",
+      "label": "PBK- Talente",
+      "path": "packs/pbk-talente",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pbk-items",
+      "label": "PBK-Items",
+      "path": "packs/pbk-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
